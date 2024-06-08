@@ -1,0 +1,26 @@
+body{
+    border-radius: 50px;
+    border-image-source: url();
+    border-image-slice: 10px;
+    background-image: url(),url();
+    background-position: center,left;
+    background-size: cover;
+    background-repeat: no-repeat,no-repeat;
+    background-image: linear-gradient(green,yellow);
+    background-image: linear-gradient(to bottom  right, green,yellow);
+    background-image: radial-gradient(green 10%,blue 10% ,red 80%);
+    text-shadow: 10px 10px 5px green;
+    text-shadow: 5px 5px 0px white,6px 6px 2px blue;
+    box-shadow: 4px 4px 1px red,5px 5px 5px yellow;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* word-wrap: break-word; this will provide all content from line to line which are overflowwing content */
+    
+}
+p:hover{
+    overflow: visible;
+    transform: translate(60pz,20px);
+    transform: rotate(60px);
+    transform: scaleX();
+    /* perspective: 1000px; */
+}
