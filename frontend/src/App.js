@@ -4,7 +4,7 @@ import B from "./component/B";
 function App() {
   return (
   <div>
-    <h1>hi bhai</h1>
+    <h1>hi bhai sarthak is here</h1>
    
     <B/>
   </div>
