@@ -10,7 +10,7 @@ function A() {
     function handonclick() {
         setInc(inc + 1);
     }
-
+    console.log("hello world")
     function handleFilterChange(e) {
         setFilterRole(e.target.value);
     }
