@@ -15,7 +15,7 @@ exports.imageupload = async(req,res)=>
               const supportedfiletype = ['jpg','jpeg']
               if(!supportedfiletype.includes(file.name.split('.')[1].toLowerCase()))
                 {
-                     res.status(400).josn(
+                       res.status(400).josn(
                         {
                             message:"file type not supported"
                         }
